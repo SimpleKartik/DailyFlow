@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--bg-color);
+  --color-foreground: var(--fg-color);
+}
+
+:root {
+  --bg-color: #ffffff;
+  --fg-color: #0f172a;
+}
+
+.dark {
+  --bg-color: #0f172a;
+  --fg-color: #f8fafc;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
