@@ -1,4 +1,4 @@
-# DailyTrack
+# DailyFlow
 
 A modern full-stack web application for personal daily activity and habit tracking.
 
